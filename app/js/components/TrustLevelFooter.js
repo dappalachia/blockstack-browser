@@ -22,11 +22,9 @@ class TrustLevelFooter extends Component {
     return (
       <footer className="footer" onClick={this.props.onClick}>
         <div className="trust-level-footer-container text-center">
-          {/* <Link to={this.props.link}> */}
           <span>
             Increase your social level {stars}
           </span>
-          {/* </Link> */}
         </div>
       </footer>
     )

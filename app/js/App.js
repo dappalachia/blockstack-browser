@@ -208,14 +208,3 @@ class App extends Component {
 }
 
 export default withRouter(connect(mapStateToProps, mapDispatchToProps)(App))
-
-/*
-{
-  (() => {
-    if (process.env.NODE_ENV !== 'production') {
-      //const DevTools = require('./components/DevTools')
-      //return <DevTools />
-    }
-  })()
-}
-*/

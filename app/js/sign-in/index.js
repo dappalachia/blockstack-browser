@@ -215,10 +215,6 @@ class SignIn extends React.Component {
   }
 
   /**
-   * new
-   */
-
-  /**
    * initialize our wallet
    * this will initialize our wallet and then create an account for us
    * see account/actions.js
