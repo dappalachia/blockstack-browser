@@ -26,9 +26,6 @@ function proxyFetchForSomeHosts(url, options) {
   const tokens = url.split('://')
   const hostAndPath = tokens[1]
   const host = hostAndPath.split('/')[0]
-  // if (scheme !== 'https') {
-  //   return realFetch.call(this, url, options)
-  // }
 
   if (host.endsWith('amazonaws.com') ||
        host.endsWith('facebook.com') ||

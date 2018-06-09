@@ -17,7 +17,6 @@ const getUsernameStatus = async (
     return null
   }
   const api = 'https://registrar.blockstack.org/v1/names/'
-  // const url = `https://core.blockstack.org/v1/names/${username.toLowerCase()}${sponsoredName}`
   const url = `${api}${username.toLowerCase()}${sponsoredName}`
   const res = await fetch(url)
   const user = await res.json()
