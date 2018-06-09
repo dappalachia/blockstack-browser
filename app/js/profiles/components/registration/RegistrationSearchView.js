@@ -56,8 +56,8 @@ class RegistrationSearchView extends Component {
         id: {
           registerUrl: this.props.api.registerUrl
         }
-      }) // ,
-      // this.props.api.subdomains)
+      }
+    )
     const nameSuffixes = Object.keys(availableDomains)
 
     this.state = {

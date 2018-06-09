@@ -31,7 +31,6 @@ class SocialAccountItem extends Component {
     this.getAccountUrl = this.getAccountUrl.bind(this)
     this.getIconClass = this.getIconClass.bind(this)
     this.getIdentifier = this.getIdentifier.bind(this)
-    // this.onClick = this.onClick.bind(this)
   }
 
   getAccountUrl() {
