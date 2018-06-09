@@ -360,9 +360,6 @@ class VerificationInfo extends Component {
     return (
       <div onClick={this.handleClick}>
         <div className="verification-instructions-container">
-{/*          <p className="verification-instructions-heading">
-            Verification Instructions
-          </p>*/}
           <ReactTooltip
             place="top"
             type="dark"

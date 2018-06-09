@@ -57,11 +57,3 @@ class ImportPage extends Component {
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(ImportPage)
-
-/*
-  <div>
-    <button className="btn btn-tertiary" onClick={this.refreshAddress}>
-      New Address
-    </button>
-  </div>
-*/

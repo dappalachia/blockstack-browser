@@ -841,12 +841,6 @@ class DefaultProfilePage extends Component {
                   ) : (
                     <div className="col-12">
                       <div className="text-center">
-                        {/* {(blockNumber && transactionIndex) ?
-                          <div className="idcard-body dim">
-                            Registered in block <span>#{blockNumber}</span>,<br />
-                            transaction <span>#{transactionIndex}</span>
-                          </div>
-                        : null}*/}
                         <div className="pro-card-name text-center m-t-30">
                           {person.name() && person.name().length > 0 ? (
                             person.name()
@@ -910,19 +904,6 @@ class DefaultProfilePage extends Component {
                             />
                           </span>
                         </div>
-
-                        {/*
-                        {person.address() ?
-                          <div className="pro-card-body text-center text-secondary">
-                          {person.address()}
-                          </div>
-                        : null}
-                        {person.birthDate() ?
-                          <div className="pro-card-body text-center">
-                          {person.birthDate()}
-                          </div>
-                        : null}
-                        */}
                       </div>
                     </div>
                   )}
